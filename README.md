@@ -49,14 +49,14 @@ n/a
 * Test Plan -  New project has already a default Test Plan
 * Criando Grupo de Usuários: Add >> Threads (Users) >> Thread Group
     * Properties (importantes):
-            * "Number of Thread Users": Número de usuários simultâneos. Exemplo: 1
-            * "Ramp-up Period (in seconds)": Quantidade de tempo de cada ciclo antes do incremento de usuários. Exemplo: 20 seconds
-            * "Loop Count": Contador de vezes. Exemplo: 5 vezes
+        * "Number of Thread Users": Número de usuários simultâneos. Exemplo: 1
+        * "Ramp-up Period (in seconds)": Quantidade de tempo de cada ciclo antes do incremento de usuários. Exemplo: 20 seconds
+        * "Loop Count": Contador de vezes. Exemplo: 5 vezes
 * Criando Requisição HTTP: Add >> Sampler >> HTTP Request
     * Properties (importantes):
-            * "Server Name or IP Address": Endereço IP do servidor
-            * "HTTP Request - Method": [GET] chamada get do protocolo. Exemplo: lifecharger.org
-            * "Path": Caminho da página. Exemplo: /look-at-the-other-side
+        * "Server Name or IP Address": Endereço IP do servidor
+        * "HTTP Request - Method": [GET] chamada get do protocolo. Exemplo: lifecharger.org
+        * "Path": Caminho da página. Exemplo: /look-at-the-other-side
 * Relatórios da execução ou Listeners
     * [Thread Group] >> Add >> Listener >> View Results in Table
         * Mostra no formato tabular todas as métricas de cada uma das execução
@@ -77,4 +77,3 @@ n/a
 ## Referências ##
 
 * [JMeter Beginner Tutorial 2 - How to create first Jmeter Test](https://www.youtube.com/watch?v=8loLHbhfyh0&index=2&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
-* 
