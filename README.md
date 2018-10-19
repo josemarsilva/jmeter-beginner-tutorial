@@ -9,26 +9,7 @@ Este repositório contém um tutorial do **JMeter** .
 
 ### 2. Documentação ###
 
-### 2.1. Diagrama de Caso de Uso (Use Case Diagram) ###
-
-```image-file
-n/a
-```
-
-### 2.2. Diagrama de Implantação (Deploy Diagram) ###
-
-```image-file
-n/a
-```
-
-### 2.3. Diagrama de Atividades (Activity Diagram) ###
-
-```image-file
-n/a
-```
-
-
-### 2.4. Diagrama Modelo Banco de Dados (Database Data Model) ###
+### 2.1. Diagramas ###
 
 ```image-file
 n/a
@@ -45,7 +26,7 @@ n/a
 
 ### 3.6. Guia e Tutorial ###
 
-#### 01 - Thread Groups, HTTP Request, View Results in Table, View Results Tree e Summary Report
+#### 3.6.1 Thread Groups, HTTP Request, View Results in Table, View Results Tree e Summary Report ####
 * Test Plan -  New project has already a default Test Plan
 * Criando Grupo de Usuários: Add >> Threads (Users) >> Thread Group
     * Properties (importantes):
@@ -72,10 +53,10 @@ n/a
 * Limpar métricas de execução( Menu >> Run >> Clear ) ou ( Menu >> Run >> Clear )
     * Limpa as métricas de execução dos Listener ou Relatórios
 * Referências:
-* [JMeter Beginner Tutorial 2 - How to create first Jmeter Test](https://www.youtube.com/watch?v=8loLHbhfyh0&index=2&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
+    * [JMeter Beginner Tutorial 2 - How to create first Jmeter Test](https://www.youtube.com/watch?v=8loLHbhfyh0&index=2&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
-#### 02 - Response Assertions, Duration Assertions, Size Assertions, HTML and XML Formats, XPATH e Assertions Results
+#### 3.6.2. Response Assertions, Duration Assertions, Size Assertions, HTML and XML Formats, XPATH e Assertions Results ####
 * O que é assertions? São validações realizadas sobre as respostas. Pode ser validado resultados do cabeçalho HTTP, conteúdos da página, variaveis do JMeter, etc.
 * Criando um assertions sobre Response Code do Cabeçalho HTTP: Add >> Assertions >> Response Assertions
     * Properties (importantes):
@@ -111,7 +92,7 @@ n/a
     * [JMeter Beginner Tutorial 3 - How to use Assertions](https://www.youtube.com/watch?v=mXhC9CtQBC8&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c&index=3)
 
 
-#### 03 - Listeners
+#### 3.6.3.  Listeners ####
 * O que são os listener? São elementos que coletam e retornam informações sobre o teste, usados para visualizar o resultado de um teste e suas métricas
 * O que é latencia? É o tempo até que o primeiro byte de resposta seja apresentado
 * Listener "View Results in Table": >> Add >> Listener >> View Results in Table
@@ -134,7 +115,7 @@ n/a
     * [JMeter Beginner Tutorial 4 - How to use Listeners](https://www.youtube.com/watch?v=5FyVKVAqEJo&index=4&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
-#### 04 - Record UI Interaction using JMeter, Badboy e BlazeMeter (Chrome Plugin)
+#### 3.6.4. Gravar interação, Record UI Interaction using JMeter, Badboy e BlazeMeter (Chrome Plugin) ####
 * Step-by-Step recording UI Test Using Blazemeter
     * Step 1: Record a Test
 	* Step 2: Export as JMeter (.jmx) Script
@@ -145,11 +126,11 @@ n/a
     * [JMeter Beginner Tutorial 5 - How to record a UI (web) Test](https://www.youtube.com/watch?v=JI99ZOuI5tQ&index=5&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
-#### 05 - How to Create a Database Test Plan
+#### 3.6.5. Como criar um teste no banco de dados ####
 * Step-by-Step creating database connection
     * Step 1: Add sqldatabase driver to JMeter lib folder | Restart JMeter
 	* Step 2: Add Thread Groups
-	* Step 3: Add JDBC Conn Config | Provide details of database (dica www.db4free.net
+	* Step 3: Add JDBC Conn Config | Provide details of database (dica www.db4free.net)
 	* Step 4: Add JDBC Request
 	* Step 5: Add Listener
 	* Step 6: Run and validate
@@ -157,7 +138,7 @@ n/a
     * [JMeter Beginner Tutorial 6 - How to create a Database Test Plan](https://www.youtube.com/watch?v=oy53KAKHpts&index=6&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
-#### 06 - Como executar JMeter sem interface gráfica
+#### 3.6.5. Como executar JMeter sem interface gráfica ####
 * Command Line:
 ```bash
 jmeter -n -t <Jmeter_Script_Location> -l <JMeter_ResultFile_Location>
