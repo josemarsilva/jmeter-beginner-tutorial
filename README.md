@@ -24,9 +24,9 @@ n/a
 * JMeter ( 3.3 ou 4.0)
 
 
-### 3.6. Guia e Tutorial ###
+### 3.2. Guia e Tutorial ###
 
-#### 3.6.1 Thread Groups, HTTP Request, View Results in Table, View Results Tree e Summary Report ####
+#### 3.2.1 Thread Groups, HTTP Request, View Results in Table, View Results Tree e Summary Report ####
 * Test Plan -  New project has already a default Test Plan
 * Criando Grupo de Usuários: Add >> Threads (Users) >> Thread Group
     * Properties (importantes):
@@ -56,7 +56,7 @@ n/a
     * [JMeter Beginner Tutorial 2 - How to create first Jmeter Test](https://www.youtube.com/watch?v=8loLHbhfyh0&index=2&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
-#### 3.6.2. Response Assertions, Duration Assertions, Size Assertions, HTML and XML Formats, XPATH e Assertions Results ####
+#### 3.2.2. Response Assertions, Duration Assertions, Size Assertions, HTML and XML Formats, XPATH e Assertions Results ####
 * O que é assertions? São validações realizadas sobre as respostas. Pode ser validado resultados do cabeçalho HTTP, conteúdos da página, variaveis do JMeter, etc.
 * Criando um assertions sobre Response Code do Cabeçalho HTTP: Add >> Assertions >> Response Assertions
     * Properties (importantes):
@@ -92,7 +92,7 @@ n/a
     * [JMeter Beginner Tutorial 3 - How to use Assertions](https://www.youtube.com/watch?v=mXhC9CtQBC8&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c&index=3)
 
 
-#### 3.6.3.  Listeners ####
+#### 3.2.3.  Listeners ####
 * O que são os listener? São elementos que coletam e retornam informações sobre o teste, usados para visualizar o resultado de um teste e suas métricas
 * O que é latencia? É o tempo até que o primeiro byte de resposta seja apresentado
 * Listener "View Results in Table": >> Add >> Listener >> View Results in Table
@@ -115,7 +115,7 @@ n/a
     * [JMeter Beginner Tutorial 4 - How to use Listeners](https://www.youtube.com/watch?v=5FyVKVAqEJo&index=4&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
-#### 3.6.4. Gravar interação, Record UI Interaction using JMeter, Badboy e BlazeMeter (Chrome Plugin) ####
+#### 3.2.4. Gravar interação, Record UI Interaction using JMeter, Badboy e BlazeMeter (Chrome Plugin) ####
 * Step-by-Step recording UI Test Using Blazemeter
     * Step 1: Record a Test
 	* Step 2: Export as JMeter (.jmx) Script
@@ -126,7 +126,7 @@ n/a
     * [JMeter Beginner Tutorial 5 - How to record a UI (web) Test](https://www.youtube.com/watch?v=JI99ZOuI5tQ&index=5&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
-#### 3.6.5. Como criar um teste no banco de dados ####
+#### 3.2.5. Como criar um teste no banco de dados ####
 * Step-by-Step creating database connection
     * Step 1: Add sqldatabase driver to JMeter lib folder | Restart JMeter
 	* Step 2: Add Thread Groups
@@ -138,7 +138,7 @@ n/a
     * [JMeter Beginner Tutorial 6 - How to create a Database Test Plan](https://www.youtube.com/watch?v=oy53KAKHpts&index=6&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
-#### 3.6.5. Como executar JMeter sem interface gráfica ####
+#### 3.2.5. Como executar JMeter sem interface gráfica ####
 * Command Line:
 ```bash
 jmeter -n -t <Jmeter_Script_Location> -l <JMeter_ResultFile_Location>
