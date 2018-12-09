@@ -30,11 +30,13 @@ Este repositório contém um tutorial do **JMeter** .
     * Deploy Diagram
 
 ```image-file
-localhost       www.digitalocean.com
-+--------+      +--------+
-| JMeter | ---> |        |--0  :443/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server
-| Script |      |        |
-+--------+      +--------+
+   localhost      www.digitalocean.com
+  +--------+        +--------+
+ /        /|       /        /|
++--------+ |      +--------+ |
+| JMeter | | ---> |        | |--o  :443/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server
+| Script |/       |        |/
++--------+        +--------+
 ```
 
 * Criando Grupo de Usuários: Add >> Threads (Users) >> Thread Group
