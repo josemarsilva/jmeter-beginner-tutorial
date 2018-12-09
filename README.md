@@ -4,8 +4,8 @@ jmeter-beginner-tutorial
 
 ### Table of Contents
 * [Introdução](#1-introdu%C3%A7%C3%A3o)
-* [Documentação]()
-* [Projeto](README.md#3projeto)
+* [Documentação](#2-documentação)
+* [Projeto]()
     * [Pré-requisitos](#3.1.Pré-requisitos)
     * [Guia e Tutorial](#3.2.GuiaeTutorial)
     * [Pré-requisitos](#3.1.Pré-requisitos)
