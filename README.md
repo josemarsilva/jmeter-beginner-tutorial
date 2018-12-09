@@ -65,7 +65,7 @@ localhost       www.digitalocean.com
     * Limpa as métricas de execução dos Listener ou Relatórios
 * Referências:
     * [JMeter Beginner Tutorial 2 - How to create first Jmeter Test](https://www.youtube.com/watch?v=8loLHbhfyh0&index=2&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
-	* [https://www.digitalocean.com/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server]
+	* https://www.digitalocean.com/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server
 * Source Code Example:
     * [01 - Thread Groups HTTP Request View Results in Table.jmx](blob/master/src/01%20-%20Thread%20Groups%20HTTP%20Request%20View%20Results%20in%20Table.jmx)
 
