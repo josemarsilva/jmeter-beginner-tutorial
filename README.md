@@ -3,7 +3,7 @@ jmeter-beginner-tutorial
 
 
 ### Table of Contents
-**[Installation Instructions](#1.%20Introdução)**<br>
+**[Introdução](#1. Introdução)**<br>
 
 
 ## 1. Introdução ##
