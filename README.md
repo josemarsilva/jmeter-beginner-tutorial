@@ -13,7 +13,7 @@
         * [Listeners - View results in (Table, Tree, Aggregate Report, Graph Result, Summary Report)](#323--listeners---view-results-in-table-tree-aggregate-report-graph-result-summary-report)
             * [Listener Screen Captured Examples](https://github.com/josemarsilva/jmeter-beginner-tutorial/blob/master/doc/Listener/README.md)
         * [Gravar interação, Record UI Interaction using JMeter, Badboy e BlazeMeter (Chrome Plugin)](#324-gravar-intera%C3%A7%C3%A3o-record-ui-interaction-using-jmeter-badboy-e-blazemeter-chrome-plugin)
-        * [Como criar um teste no banco de dados](#325-como-criar-um-teste-no-banco-de-dados)
+        * [Como configurar uma Conexão JDBC com Banco de Dados](#325-como-criar-um-teste-no-banco-de-dados)
         * [Como executar JMeter sem interface gráfica](#325-como-executar-jmeter-sem-interface-gr%C3%A1fica)
 
 ---
@@ -179,14 +179,17 @@ Este repositório contém um tutorial do **JMeter** .
     * [JMeter Beginner Tutorial 5 - How to record a UI (web) Test](https://www.youtube.com/watch?v=JI99ZOuI5tQ&index=5&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
-#### 3.2.5. Como criar um teste no banco de dados ####
+#### 3.2.5. Como configurar uma Conexão JDBC com Banco de Dados ####
+* Do que se trata JMeter com Database
+    * O JMeter pode obter dados de uma base de dados SQL atraves de um 
 * Step-by-Step creating database connection
-    * Step 1: Add sqldatabase driver to JMeter lib folder | Restart JMeter
-	* Step 2: Add Thread Groups
-	* Step 3: Add JDBC Conn Config | Provide details of database (dica www.db4free.net)
-	* Step 4: Add JDBC Request
-	* Step 5: Add Listener
-	* Step 6: Run and validate
+    * Step 1: [Crie e configure os objetos no banco de dados para o teste do JMeter](doc/DatabaseConnection/README.md)
+    * Step 2: [Add sqldatabase driver to JMeter lib folder e Restart JMeter](doc/DatabaseConnection/README.md)
+	* Step 3: Add Thread Groups
+	* Step 4: Add JDBC Conn Config
+	* Step 5: Add JDBC Request
+	* Step 6: Add Listener
+	* Step 7: Run and validate
 * Referências:
     * [JMeter Beginner Tutorial 6 - How to create a Database Test Plan](https://www.youtube.com/watch?v=oy53KAKHpts&index=6&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
