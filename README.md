@@ -150,8 +150,7 @@ Este repositório contém um tutorial do **JMeter** .
 * Source Code Example:
     * [03 - Listeners - View Results in (Table, Tree, Aggregate Report, Graph Result, Summary Report, Sample Data Writer)](src/02%20-%20Assertions%20(Response%20Code%20Duration%20Size%20Contents)%20e%20Listener%20Assertions%20Results.jmx)
 * Screen Captured Example:
-    * [Screen Captured Examples](doc\Listener\README.md)
-
+    * [Screen Captured Examples](doc/Listener/README.md)
 
 #### 3.2.4. Gravar interação, Record UI Interaction using JMeter, Badboy e BlazeMeter (Chrome Plugin) ####
 * Step-by-Step recording UI Test Using Blazemeter
