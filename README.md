@@ -106,6 +106,9 @@ Este repositório contém um tutorial do **JMeter** .
         * "XPATH assertion:": XPATH esperado na resposta. Exemplo: 
 * Referências:
     * [JMeter Beginner Tutorial 3 - How to use Assertions](https://www.youtube.com/watch?v=mXhC9CtQBC8&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c&index=3)
+* Source Code Example:
+    * [01 - Thread Groups HTTP Request View Results in Table.jmx](blob/master/src/01%20-%20Thread%20Groups%20HTTP%20Request%20View%20Results%20in%20Table.jmx)
+    * [02 - Assertions (Response Code Duration Size Contents) e Listener Assertions Result](blob/master/src/02%20-%20Assertions%20(Response%20Code%20Duration%20Size%20Contents)%20e%20Listener%20Assertions%20Results.jmx)
 
 
 #### 3.2.3.  Listeners ####
