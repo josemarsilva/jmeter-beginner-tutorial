@@ -67,9 +67,9 @@ Este repositório contém um tutorial do **JMeter** .
     * Limpa as métricas de execução dos Listener ou Relatórios
 * Referências:
     * [JMeter Beginner Tutorial 2 - How to create first Jmeter Test](https://www.youtube.com/watch?v=8loLHbhfyh0&index=2&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
-	* https://www.digitalocean.com/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server
+	* [How to Use Jmeter](https://www.digitalocean.com/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server)
 * Source Code Example:
-    * [01 - Thread Groups HTTP Request View Results in Table.jmx](blob/master/src/01%20-%20Thread%20Groups%20HTTP%20Request%20View%20Results%20in%20Table.jmx)
+    * [01 - Thread Groups HTTP Request View Results in Table.jmx](src/01%20-%20Thread%20Groups%20HTTP%20Request%20View%20Results%20in%20Table.jmx)
 
 
 #### 3.2.2. Response Assertions, Duration Assertions, Size Assertions, HTML and XML Formats, XPATH e Assertions Results ####
@@ -107,8 +107,7 @@ Este repositório contém um tutorial do **JMeter** .
 * Referências:
     * [JMeter Beginner Tutorial 3 - How to use Assertions](https://www.youtube.com/watch?v=mXhC9CtQBC8&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c&index=3)
 * Source Code Example:
-    * [01 - Thread Groups HTTP Request View Results in Table.jmx](blob/master/src/01%20-%20Thread%20Groups%20HTTP%20Request%20View%20Results%20in%20Table.jmx)
-    * [02 - Assertions (Response Code Duration Size Contents) e Listener Assertions Result](blob/master/src/02%20-%20Assertions%20(Response%20Code%20Duration%20Size%20Contents)%20e%20Listener%20Assertions%20Results.jmx)
+    * [02 - Assertions (Response Code Duration Size Contents) e Listener Assertions Result](src/02%20-%20Assertions%20(Response%20Code%20Duration%20Size%20Contents)%20e%20Listener%20Assertions%20Results.jmx)
 
 
 #### 3.2.3.  Listeners ####
