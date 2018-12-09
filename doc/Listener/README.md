@@ -1,4 +1,4 @@
-## Listener - Screen Capture Examples
+## Listener - Screen Captured Examples
 
 
 ### ViewResultsInTable
