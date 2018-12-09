@@ -1,6 +1,8 @@
 jmeter-beginner-tutorial
 # README #
 
+---
+
 ### Índice
 * [Introdução](#1-introdu%C3%A7%C3%A3o)
 * [Documentação](#2-documentação)
@@ -15,6 +17,7 @@ jmeter-beginner-tutorial
         * [Como criar um teste no banco de dados](#325-como-criar-um-teste-no-banco-de-dados)
         * [Como executar JMeter sem interface gráfica](#325-como-executar-jmeter-sem-interface-gr%C3%A1fica)
 
+---
 
 
 ## 1. Introdução
