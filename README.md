@@ -110,9 +110,20 @@ Este repositório contém um tutorial do **JMeter** .
     * [02 - Assertions (Response Code Duration Size Contents) e Listener Assertions Result](src/02%20-%20Assertions%20(Response%20Code%20Duration%20Size%20Contents)%20e%20Listener%20Assertions%20Results.jmx)
 
 
-#### 3.2.3.  Listeners ####
+#### 3.2.3.  Listeners - View results in (Table, Tree, Aggregate Report, Graph Result, Summary Report)  ####
 * O que são os listener? São elementos que coletam e retornam informações sobre o teste, usados para visualizar o resultado de um teste e suas métricas
-* O que é latencia? É o tempo até que o primeiro byte de resposta seja apresentado
+* O que é "latencia"? É o tempo até que o primeiro byte de resposta seja apresentado
+* O que é "tempo de resposta"? É o tempo decorrido desde o início da requisição, passando pelo momento onde começa ocorrer a entrega dos bytes da requisição até o último byte ser recebido
+* O que é "connect time"? É o tempo gasto durante o procedimento de conexão entre o client (JMeter) e o servidor(Normalmente HTTP Server). Ele não contempla o tempo do serviço de entrega dos bytes, porém pode ser um indicativo de problemas de conexão. 
+* Criando Grupo de Usuários: Add >> Threads (Users) >> Thread Group
+    * "Number of Thread Users": [5] Número de usuários simultâneos
+    * "Ramp-up Period (in seconds)": [1] Quantidade de tempo de cada ciclo antes do incremento de usuários
+    * "Loop Count": [100] Contador de vezes
+* Criando Requisição HTTP: Add >> Sampler >> HTTP Request
+    * "Web Server - Server Name or IP Address": [www.digitalocean.com] Endereço IP do servidor
+    * "Web Server - Protocol": [https] Nome do protocolo. Não colocar o protocolo junto com o servidor
+    * "HTTP Request - Method": [GET] chamada get do protocolo
+    * "Path": Caminho da página. [/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server] caminho do endereço que vem logo após o servico
 * Listener "View Results in Table": >> Add >> Listener >> View Results in Table
 	* Mostra no formato tabular todas as métricas de cada uma das execução
 * Listener "View Results Tree": >> Add >> Listener >> View Results Tree
@@ -120,13 +131,14 @@ Este repositório contém um tutorial do **JMeter** .
 		* requisição "Request"
 		* resposta "Response"
 		* amostra do resultado "Sample Result"
-* Listener "Summary Report": >> Add >> Listener >> Summary Report
-    * Mostra de forma agrupada as métricas do relatório
 * Listener "Aggregate Report": >> Add >> Listener >> Summary Reports
 	* Mostra de forma agrupada as métricas de todas as execuções
 		* "\# Samples": Número de amostras, Tempos mínimos, médios e máximo de cada requisição, quantidade de bytes trafegados, latência, etc
+* Listener "Summary Report": >> Add >> Listener >> Summary Report
+    * Mostra de forma agrupada as métricas do relatório
 * Listener "Graph Results": >> Add >> Listener >> Graph Results
     * Mostra on-line/real-time as métricas e resultados dos tests
+    * Configure: [ ] Data; [X] Average; [ ] Medium; [ ] Deviation; [X] Throughput;
 * "Simple Data Writer": >> Add >> Listener >> Simple Data Writer
     * Mostra diversas mét
 * Referências:
