@@ -11,9 +11,7 @@ Este repositório contém um tutorial do **JMeter** .
 
 ### 2.1. Diagramas ###
 
-```image-file
-n/a
-```
+* n/a
 
 
 ## 3. Projeto ##
@@ -21,23 +19,36 @@ n/a
 ### 3.1. Pré-requisitos ###
 
 * Java JDK 8
-* JMeter ( 3.3 ou 4.0)
+* JMeter ( 3.3 ou 4.0 ou 5.0)
 
 
 ### 3.2. Guia e Tutorial ###
 
 #### 3.2.1 Thread Groups, HTTP Request, View Results in Table, View Results Tree e Summary Report ####
 * Test Plan -  New project has already a default Test Plan
+* Diagramas
+    * Deploy Diagram
+
+```image-file
+localhost       www.digitalocean.com
++--------+      +--------+
+| JMeter | ---> |        |--0  :443/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server
+| Script |      |        |
++--------+      +--------+
+```
+
 * Criando Grupo de Usuários: Add >> Threads (Users) >> Thread Group
     * Properties (importantes):
-        * "Number of Thread Users": Número de usuários simultâneos. Exemplo: 1
-        * "Ramp-up Period (in seconds)": Quantidade de tempo de cada ciclo antes do incremento de usuários. Exemplo: 20 seconds
-        * "Loop Count": Contador de vezes. Exemplo: 5 vezes
+        * "Number of Thread Users": [2] Número de usuários simultâneos. Exemplo: 2
+        * "Ramp-up Period (in seconds)": [10] Quantidade de tempo de cada ciclo antes do incremento de usuários. Exemplo: 10 seconds
+        * "Loop Count": [100] Contador de vezes. Exemplo: 100 vezes
+		* Comentário: Iniciando com "Number of Thread Users" usuário simultâneo, a cada "Ramp-up Period (in seconds)" segundos acrescenta mais "Number of Thread Users" usuários até a condição de parada "Loop Count"
 * Criando Requisição HTTP: Add >> Sampler >> HTTP Request
     * Properties (importantes):
-        * "Server Name or IP Address": Endereço IP do servidor
-        * "HTTP Request - Method": [GET] chamada get do protocolo. Exemplo: lifecharger.org
-        * "Path": Caminho da página. Exemplo: /look-at-the-other-side
+        * "Web Server - Server Name or IP Address": [www.digitalocean.com] Endereço IP do servidor
+        * "Web Server - Protocol": [https] Nome do protocolo. Não colocar o protocolo junto com o servidor
+        * "HTTP Request - Method": [GET] chamada get do protocolo. Exemplo: www.digitalocean.com
+        * "Path": Caminho da página. [/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server] caminho do endereço que vem logo após o servico
 * Relatórios da execução ou Listeners
     * [Thread Group] >> Add >> Listener >> View Results in Table
         * Mostra no formato tabular todas as métricas de cada uma das execução
@@ -54,6 +65,9 @@ n/a
     * Limpa as métricas de execução dos Listener ou Relatórios
 * Referências:
     * [JMeter Beginner Tutorial 2 - How to create first Jmeter Test](https://www.youtube.com/watch?v=8loLHbhfyh0&index=2&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
+	* [https://www.digitalocean.com/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server]
+* Source Code Example:
+    * [01 - Thread Groups HTTP Request View Results in Table.jmx](blob/master/src/01%20-%20Thread%20Groups%20HTTP%20Request%20View%20Results%20in%20Table.jmx)
 
 
 #### 3.2.2. Response Assertions, Duration Assertions, Size Assertions, HTML and XML Formats, XPATH e Assertions Results ####
