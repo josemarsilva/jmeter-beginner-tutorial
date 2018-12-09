@@ -11,18 +11,18 @@ jmeter-beginner-tutorial
     * [Pré-requisitos](#3.1.Pré-requisitos)
 
 
-## 1. Introdução ##
+## 1. Introdução
 
 Este repositório contém um tutorial do **JMeter** . 
 
-### 2. Documentação ###
+### 2. Documentação
 
 ### 2.1. Diagramas ###
 
 * n/a
 
 
-## 3. Projeto ##
+## 3. Projeto
 
 ### 3.1. Pré-requisitos ###
 
