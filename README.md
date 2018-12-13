@@ -13,7 +13,7 @@
         * [Listeners - View results in (Table, Tree, Aggregate Report, Graph Result, Summary Report)](#323--listeners---view-results-in-table-tree-aggregate-report-graph-result-summary-report)
             * [Listener Screen Captured Examples](https://github.com/josemarsilva/jmeter-beginner-tutorial/blob/master/doc/Listener/README.md)
         * [Gravar interação, Record UI Interaction using JMeter, Badboy e BlazeMeter (Chrome Plugin)](#324-gravar-intera%C3%A7%C3%A3o-record-ui-interaction-using-jmeter-badboy-e-blazemeter-chrome-plugin)
-        * [Como configurar uma Conexão JDBC com Banco de Dados](#325-como-criar-um-teste-no-banco-de-dados)
+        * [Como configurar uma Conexão JDBC com Banco de Dados](#325-como-configurar-uma-conex%C3%A3o-jdbc-com-banco-de-dados)
         * [Como executar JMeter sem interface gráfica](#325-como-executar-jmeter-sem-interface-gr%C3%A1fica)
 
 ---
