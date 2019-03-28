@@ -41,7 +41,7 @@ Este repositório contém um tutorial do **JMeter** .
 * Diagramas
     * Deploy Diagram
 	
-![JMeter Context - 01](doc/DeployDiagram%20-%20JMeter%20Context%20-%2001.png)
+![JMeter Context - 01](doc/Diagram/DeployDiagram%20-%20JMeter%20Context%20-%2001.png)
 
 * Criando Grupo de Usuários: Add >> Threads (Users) >> Thread Group
     * Properties (importantes):
