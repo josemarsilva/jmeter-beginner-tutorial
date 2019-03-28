@@ -1,8 +1,15 @@
 # README - jmeter-beginner-tutorial #
 
 ---
+## 1. Introdução
 
-### Índice
+Este repositório contém um tutorial do **JMeter** . 
+
+---
+### 2. Documentação
+
+#### 2.1. Índice ###
+
 * [Introdução](#1-introdu%C3%A7%C3%A3o)
 * [Documentação](#2-documentação)
 * [Projeto](#3-projeto)
@@ -16,20 +23,8 @@
         * [Como configurar uma Conexão JDBC com Banco de Dados](#325-como-configurar-uma-conex%C3%A3o-jdbc-com-banco-de-dados)
         * [Como executar JMeter sem interface gráfica](#325-como-executar-jmeter-sem-interface-gr%C3%A1fica)
 
+
 ---
-
-
-## 1. Introdução
-
-Este repositório contém um tutorial do **JMeter** . 
-
-### 2. Documentação
-
-### 2.1. Diagramas ###
-
-* n/a
-
-
 ## 3. Projeto
 
 ### 3.1. Pré-requisitos ###
@@ -38,22 +33,15 @@ Este repositório contém um tutorial do **JMeter** .
 * JMeter ( 3.3 ou 4.0 ou 5.0)
 
 
+---
 ### 3.2. Guia e Tutorial ###
 
 #### 3.2.1 Thread Groups, HTTP Request, View Results in Table, View Results Tree e Summary Report ####
 * Test Plan -  New project has already a default Test Plan
 * Diagramas
     * Deploy Diagram
-
-```image-file
-   localhost      www.digitalocean.com
-  +--------+        +--------+
- /        /|       /        /|
-+--------+ |      +--------+ |
-| JMeter | | ---> |        | |--o  :443/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server
-| Script |/       |        |/
-+--------+        +--------+
-```
+	
+![JMeter Context - 01](doc/DeployDiagram%20-%20JMeter%20Context%20-%2001.png)
 
 * Criando Grupo de Usuários: Add >> Threads (Users) >> Thread Group
     * Properties (importantes):
@@ -88,6 +76,7 @@ Este repositório contém um tutorial do **JMeter** .
     * [01 - Thread Groups HTTP Request View Results in Table.jmx](src/01%20-%20Thread%20Groups%20HTTP%20Request%20View%20Results%20in%20Table.jmx)
 
 
+---
 #### 3.2.2. Response Assertions, Duration Assertions, Size Assertions, HTML and XML Formats, XPATH e Assertions Results ####
 * O que é assertions? São validações realizadas sobre as respostas. Pode ser validado resultados do cabeçalho HTTP, conteúdos da página, variaveis do JMeter, etc.
 * Criando um assertions sobre Response Code do Cabeçalho HTTP: Add >> Assertions >> Response Assertions
@@ -126,6 +115,7 @@ Este repositório contém um tutorial do **JMeter** .
     * [02 - Assertions (Response Code Duration Size Contents) e Listener Assertions Result](src/02%20-%20Assertions%20(Response%20Code%20Duration%20Size%20Contents)%20e%20Listener%20Assertions%20Results.jmx)
 
 
+---
 #### 3.2.3.  Listeners - View results in (Table, Tree, Aggregate Report, Graph Result, Summary Report)  ####
 * O que são os listener? São elementos que coletam e retornam informações sobre o teste, usados para visualizar o resultado de um teste e suas métricas
 * O que é "latencia"? É o tempo até que o primeiro byte de resposta seja apresentado
@@ -168,6 +158,7 @@ Este repositório contém um tutorial do **JMeter** .
 * Screen Captured Example:
     * [Screen Captured Examples](doc/Listener/README.md)
 
+---
 #### 3.2.4. Gravar interação, Record UI Interaction using JMeter, Badboy e BlazeMeter (Chrome Plugin) ####
 * Step-by-Step recording UI Test Using Blazemeter
     * Step 1: Record a Test
@@ -194,6 +185,7 @@ Este repositório contém um tutorial do **JMeter** .
     * [JMeter Beginner Tutorial 6 - How to create a Database Test Plan](https://www.youtube.com/watch?v=oy53KAKHpts&index=6&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
+---
 #### 3.2.5. Como executar JMeter sem interface gráfica ####
 * Command Line:
 ```bash
@@ -208,3 +200,6 @@ jmeter -n -t <Jmeter_Script_Location> -l <JMeter_ResultFile_Location>
 	* Summary Report    : ~/result/result_${__time(yyyy-MM-dd HHmmss)}
 	* Simple Data Writer: ~/erros/erros_${__time(yyyy-MM-dd HHmmss)}
 	
+---
+## 3. Conclusão
+
