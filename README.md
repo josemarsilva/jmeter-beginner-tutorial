@@ -170,6 +170,7 @@ Este repositório contém um tutorial do **JMeter** .
     * [JMeter Beginner Tutorial 5 - How to record a UI (web) Test](https://www.youtube.com/watch?v=JI99ZOuI5tQ&index=5&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 
 
+---
 #### 3.2.5. Como configurar uma Conexão JDBC com Banco de Dados ####
 * Do que se trata JMeter com Database
     * O JMeter pode obter dados de uma base de dados SQL atraves de um 
